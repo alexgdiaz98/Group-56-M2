@@ -31,6 +31,8 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
+	  String prefix = input.substring(0, 2);
+	  return input.substring(2) + prefix;
 	  String out = input.substring(2);
 	  out += input.charAt(0);
 	  out += input.charAt(1);
