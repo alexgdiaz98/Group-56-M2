@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Alexander Diaz
+ *  @author Piyush
  *  @version 1.1
  */
 public class Person1 {
@@ -33,6 +33,10 @@ public class Person1 {
 	  //Person 1 put your implementation here
 	  String prefix = input.substring(0, 2);
 	  return input.substring(2) + prefix;
+	  String out = input.substring(2);
+	  out += input.charAt(0);
+	  out += input.charAt(1);
+	  return out;
 	}
 	
 	/**
