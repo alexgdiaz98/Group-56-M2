@@ -49,9 +49,4 @@ public class Person3 {
         }
         return temp;
 	}
-
-	public static void main(String[] args) {
-		Person3 person = new Person3("Destin");
-		System.out.println(person.toString());
-	}
 }
