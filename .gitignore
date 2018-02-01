@@ -1,4 +1,6 @@
 .DS_Store
 .swp
 .iml
-/out/
+out/
+.idea
+
